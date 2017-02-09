@@ -1,5 +1,3 @@
-module.exports = {
-  math : function(num){
-    return Math.sqrt(num)
-  }
+module.exports = function(num){
+  return Math.sqrt(num)
 }
