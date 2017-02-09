@@ -1,5 +1,4 @@
 const assert = require('assert')
-// equal, notEqual, strictEqual, notStrictEqual, deepEqual, notDeepEqual
 const math = require('../index').math
 const run = require('../index').run
 
@@ -34,7 +33,6 @@ const objects1 = [
 
 assert.equal(math.add(0, 0), 0)
 assert.equal(math.add(0), 'Error')
-
 assert.equal(math.add(0, 0), '0')
 assert.equal(math.add(-0, -0), 0)
 assert.equal(math.add(-1, -1), -2)
