@@ -6,10 +6,10 @@ const root      = require('./root')
 const substract = require('./substract')
 
 module.exports = {
-  add : add,
-  divide : divide,
-  multiply : multiply,
-  root : root,
-  substract : substract,
-  exponent : exponent
+  add,
+  divide,
+  multiply,
+  root,
+  substract,
+  exponent
 }
