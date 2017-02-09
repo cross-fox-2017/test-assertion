@@ -4,14 +4,22 @@ const multiply = require('./multiply')
 const root = require('./root')
 const exponent = require('./exponent')
 const divide = require('./divide')
+const data = require('./data')
 
 const math = {
-  add: add,
-  substract: substract,
-  multiply: multiply,
-  divide: divide,
-  exponent: exponent,
-  root: root
+  add,
+  substract,
+  multiply,
+  divide,
+  exponent,
+  root
 }
 
-module.exports = math
+const run = {
+  data
+}
+
+module.exports = {
+  math,
+  run
+}
