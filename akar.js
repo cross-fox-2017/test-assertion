@@ -1,8 +1,10 @@
 var akar = (angka) => {
-  if (typeof(angka) == 'number'){
+  if(angka < 1){
+    return 'Must a Positive Number'
+  } else if (typeof(angka) == 'number'){
     return Math.sqrt(angka)
   } else {
-    return 'Input must in Number'
+    return 'Input is Required and must in Number'
   }
 }
 
