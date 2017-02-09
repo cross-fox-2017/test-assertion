@@ -3,6 +3,7 @@ const matematika = require('../index');
 
 //penambahan
 assert.equal(matematika.penambahan(1,1), 2)
+assert.equal(matematika.penambahan("1", "2"), "Input must in Number")
 
 //pengurangan
 assert.equal(matematika.pengurangan(3,1), 2)
