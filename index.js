@@ -5,7 +5,7 @@ var multiply = require('./multiply');
 var root = require('./root');
 var substract = require('./substract');
 
-module.exports = math = {
+module.exports = {
   add,
   divide,
   exponent,

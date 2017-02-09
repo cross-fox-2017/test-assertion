@@ -1,4 +1,4 @@
-function (a){
+function root (a){
   return Math.sqrt(a)
 }
 
