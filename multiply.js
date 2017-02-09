@@ -1,12 +1,13 @@
-
 // const assert = require('assert');
 
-var Multiply = function(a, b) {
-  if(typeof(a)=="number" && typeof(b)=="number"){
-    return a*b
-  }else{
-    return "cek input parameter"
-  }
+var Multiply = {
+    mathMultiply: function(a, b) {
+        if (typeof(a) == "number" && typeof(b) == "number") {
+            return a * b
+        } else {
+            return "cek input parameter"
+        }
+    }
 }
 
 module.exports = Multiply

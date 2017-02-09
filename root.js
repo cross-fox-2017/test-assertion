@@ -1,12 +1,13 @@
-
 // const assert = require('assert');
 
-var Root = function(a, b) {
-  if(typeof(a)=="number" && typeof(b)=="number"){
-    return Math.pow(a,b)
-  }else{
-    return "cek input parameter"
-  }
+var Root = {
+    mathRoot: function(a, b) {
+        if (typeof(a) == "number" && typeof(b) == "number") {
+            return Math.pow(a, b)
+        } else {
+            return "cek input parameter"
+        }
+    }
 }
 
 module.exports = Root

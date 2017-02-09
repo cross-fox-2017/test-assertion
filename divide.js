@@ -1,12 +1,13 @@
-
 // const assert = require('assert');
 
-var Divide = function(a, b) {
-  if(typeof(a)=="number" && typeof(b)=="number"){
-    return a-b
-  }else{
-    return "cek input parameter"
-  }
+var Divide = {
+    mathDivide: function(a, b) {
+        if (typeof(a) == "number" && typeof(b) == "number") {
+            return a - b
+        } else {
+            return "cek input parameter"
+        }
+    }
 }
 
 module.exports = Divide
