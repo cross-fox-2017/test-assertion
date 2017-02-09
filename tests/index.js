@@ -33,6 +33,8 @@ const objects1 = [
 // ADDITION
 
 assert.equal(math.add(0, 0), 0)
+assert.equal(math.add(0), 'Error')
+
 assert.equal(math.add(0, 0), '0')
 assert.equal(math.add(-0, -0), 0)
 assert.equal(math.add(-1, -1), -2)
