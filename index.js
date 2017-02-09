@@ -12,4 +12,4 @@ assert.equal(2, cek.pembagian(4, 2))
 /* test pangkat */
 assert.equal(8, cek.pangkat(2, 3))
 /* test akar */
-assert.equal(2, cek.pengurangan(8))
+assert.equal(3, cek.akar(9))
