@@ -15,6 +15,7 @@ const obj = [
 
 assert.strictEqual(helper.add(2, 3), 5)
 assert.notEqual(helper.add(2, 3), 6)
+assert.equal(helper.add(1), 'error')
 
 assert.strictEqual(helper.subtract(9, 3), 6)
 assert.notEqual(helper.subtract(9, 3), 5)

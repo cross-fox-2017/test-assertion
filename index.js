@@ -1,6 +1,10 @@
 module.exports = {
   add: (a, b) => {
-    return a + b
+    if (isNaN(a) || isNaN(b)) {
+      return 'error'
+    } else {
+      return a + b
+    }
   },
   subtract: (a, b) => {
     return a - b
